@@ -1,0 +1,48 @@
+.nosso-time {
+    background-color: var(--marrom);
+    padding-bottom: 5em;
+}
+
+.nosso-time__titulo {
+    color: var(--creme);
+    font-family: var(--fonte-secundaria);
+    font-size: 54px;
+    padding: 2em;
+    text-align: center;
+}
+
+.nossos-confeiteiros {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    max-width: 100vw;
+    padding: 0 em;
+}
+
+.nossos-confeiteiros__card {
+    align-items: center;
+    color: var(--creme);
+    height: 400px;
+    justify-content: center;
+    text-align: center;
+    width: 400px;
+
+}
+
+.nossos-confeiteiros__foto {
+    border-radius: 50%;
+    max-width: 250px;
+}
+
+.nossos-confeiteiros__nome {
+    font-family: var(--fonte-secundaria);
+    margin: 0;
+    padding: 1em 1em 0.5em 1em;
+}
+
+.nossos-confeiteiros__descricao {
+    font-family: var(--fonte-principal);
+    margin: 0;
+    padding: 0.5em 1em 1em 1em;
+}

@@ -1,0 +1,55 @@
+.nossos-produtos {
+    background-color: var(--creme);
+    padding-bottom: 3em;
+}
+
+.produtos-titulo {
+    color: var(--marrom);
+    font-family: var(--fonte-secundaria);
+    font-size: 54px;
+    padding: 2em 0 1em 0;
+    text-align: center;
+}
+
+.produto-card {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 1em 2em;
+    max-width: 100%;
+    padding: 1em 2em;
+}
+
+.produto {
+    background-color: var(--branco);
+    box-shadow: 3px 3px 5px var(--marrom);
+    border-radius: 5px;
+    margin: 1em;
+    max-width: 400px;
+    text-decoration: none;
+}
+
+.produto-foto {
+    border-radius: 5px;
+    justify-self: center;
+}
+
+.produto-nome {
+    color: var(--marrom);
+    font-family: var(--fonte-secundaria);
+    font-size: 22px;
+    padding-top: 0.5em;
+    text-align: center;
+}
+
+.produto-valor {
+    color: var(--marrom);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    padding-bottom: 0.5em;
+    text-align: center;
+}
+
+.produto:hover {
+    background: var(--lilas-degrade);
+    transform: scale(1.1);
+}

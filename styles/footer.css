@@ -1,0 +1,36 @@
+.footer {
+    align-items: start;
+    background-color: var(--marrom);
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 2em 5em;
+}
+
+.address {
+    font-family: var(--fonte-principal);
+    font-weight: 200;
+}
+
+.endereco {
+    color: var(--creme);
+}
+
+.telefone {
+    color: var(--creme);
+}
+
+.social {
+    display: inline-block;
+}
+
+.icon {
+    color: var(--creme);
+    height: 50px;
+    padding: 0.5em;
+    width: 50px;
+}
+
+.link {
+    text-decoration: none;
+}

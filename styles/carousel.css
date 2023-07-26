@@ -1,0 +1,24 @@
+.carousel-item {
+    background-position: center;
+    background-size: cover;
+    height: 42rem;
+    position: relative;
+    width: 100vw;
+}
+
+h5 {
+    align-items: center;
+    color: var(--creme);
+    font-family: var(--fonte-secundaria);
+    font-weight: 200;
+    font-size: 52px;
+    text-shadow: var(--marrom) 1px 1px 5px;
+}
+
+.carousel-caption {
+    color: var(--creme);
+    font-family: var(--fonte-principal);
+    font-weight: 200;
+    font-size: 34px;
+    text-shadow: var(--marrom) 1px 1px 5px;
+}

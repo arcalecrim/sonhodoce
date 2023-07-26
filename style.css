@@ -1,0 +1,23 @@
+@import url("styles/header.css");
+@import url("styles/carousel.css");
+@import url("styles/quemsomos.css");
+@import url("styles/nossotime.css");
+@import url("styles/produtos.css");
+@import url("styles/footer.css");
+
+:root {
+    --creme: #FFF4E9;
+    --marrom: #513724;
+    --branco: #F5F5F5;
+    --lilas-degrade: linear-gradient(97.54deg, #F8D6FF 35.49%, #f5f1f6 165.37%);
+    --fonte-principal: "Poppins";
+    --fonte-secundaria: "Josefin Sans";
+}
+
+body {
+    background-color: var(--cor-de-fundo);
+    text-decoration: none;
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
+}

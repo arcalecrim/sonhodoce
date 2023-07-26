@@ -1,0 +1,37 @@
+.cabecalho {
+    background-color: var(--creme);
+    display: flex;
+    height: 6vw;
+    width: 100vw;
+}
+
+.logo-imagem {
+    height: 100%;
+    padding-left: 1em;
+}
+
+.container-menu {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+    justify-content: space-around;
+    margin: 0;
+}
+
+.container-menu__item {
+    align-items: center;
+    padding: 2em;
+}
+
+.container-menu__item a {
+    color: var(--marrom);
+    font-family: var(--fonte-secundaria);
+    font-size: 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.container-menu__item:hover {
+    background: var(--lilas-degrade);
+}
